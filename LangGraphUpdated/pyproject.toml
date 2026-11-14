@@ -1,0 +1,19 @@
+[project]
+name = "langgraphupdated"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.4.10",
+    "langgraph>=1.2.20",
+    "langsmith>=0.14.17",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+langgraphupdated = "langgraphupdated:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
