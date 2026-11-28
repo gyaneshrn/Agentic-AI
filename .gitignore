@@ -1,2 +1,4 @@
 .env
 ./data/pdf
+RAG/data/pdf/
+RAG/src/__pycache__/

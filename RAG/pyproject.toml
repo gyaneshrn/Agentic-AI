@@ -14,9 +14,11 @@ dependencies = [
     "langchain>=1.4.10",
     "langchain-community>=0.4.2",
     "langchain-core>=1.7.7",
+    "langchain-groq>=1.2.1",
     "langchain-text-splitters>=1.2.0",
     "pymupdf>=1.28.2",
     "pypdf>=7.1.1",
+    "python-dotenv>=1.2.4",
     "sentence-transformers>=6.3.0",
 ]
 
